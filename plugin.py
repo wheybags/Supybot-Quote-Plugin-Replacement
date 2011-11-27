@@ -29,7 +29,7 @@ class Quote(callbacks.Plugin):
 	Will store the quote to be retrieved with get.
 	"""
         if not thing:
-		irc.reply("noarg")
+		irc.reply("You need to supply a Quote!")
 	else:
 		now = datetime.datetime.now()
 		minute = now.minute
