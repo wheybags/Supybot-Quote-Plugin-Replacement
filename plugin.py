@@ -16,7 +16,9 @@ import datetime
 import os
 
 class Quote(callbacks.Plugin):
-    """Add the help for "@plugin help Quote" here
+    """This command detailed below is silly and doesn't even work
+
+    Add the help for "@plugin help Quote" here
     This should describe *how* to use this plugin."""
     pass
 
